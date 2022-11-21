@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            primary: '#27272A',
+                            secondary: '#84CC16'
+                        }
+                    }
+                }
+            };
+        </script>
+    </head>
+    <body class="bg-[#3F3F46] px-6 sm:px-20 md:px-24">
+        <div
+            class="bg-primary mx-auto mt-10 flex w-fit flex-col rounded-lg px-3 py-3 text-white md:flex-row"
+        >
+            <div
+                class="inline-block h-[300px] w-full rounded-lg bg-[url('./image.jpg')] bg-cover bg-no-repeat md:w-[120px] md:basis-2/4 md:rounded-tr-none md:rounded-br-none"
+            ></div>
+            <div
+                class="md:basis-3/8 my-auto px-10 py-8 text-center md:text-left"
+            >
+                <h1 class="mb-4 text-2xl md:w-max">
+                    Get diet and fitness tips in your inbox.
+                </h1>
+                <p class="mb-4">
+                    Eat better and exercise better. Sign up for the Diet&Fitness
+                    newletter.
+                </p>
+                <form action="" class="flex flex-col md:flex-row">
+                    <input
+                        type="email"
+                        class="bg-primary my-3 w-full basis-3/4 rounded-none border border-[#999] px-4 py-4 text-[#ccc] outline-0 transition-all md:mr-2 md:rounded-lg"
+                        placeholder="Enter email"
+                    />
+                    <input
+                        type="submit"
+                        value="Subscribe"
+                        class="bg-secondary my-3 w-full basis-1/4 rounded-lg px-4 py-4 font-thin text-black hover:cursor-pointer md:ml-2"
+                    />
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            primary: '#1E293B',
+                            secondary: '#324154',
+                            purple: '#7C3AED'
+                        }
+                    }
+                }
+            };
+        </script>
+    </head>
+    <body class="bg-primary">
+        <div class="grid h-screen pt-4">
+            <div
+                class="mx-auto grid grid-cols-1 gap-10 px-10 text-center md:grid-cols-3"
+            >
+                <div
+                    class="bg-secondary hover:bg-purple h-fit rounded-lg px-4 py-4 text-white transition-all"
+                >
+                    <div class="bg-primary rounded-lg">
+                        <div class="border-secondary border-b px-10 py-10">
+                            <h2 class="mb-10 uppercase">Basic</h2>
+                            <p class="mb-3 text-4xl tracking-tighter">
+                                100
+                                <span class="text-5xl">GB</span>
+                            </p>
+                            <p class="mb-4">$1.99/month</p>
+                            <button
+                                class="border-purple hover:bg-purple w-full rounded-lg border py-3"
+                            >
+                                Purchare
+                            </button>
+                        </div>
+                        <ul class="px-6 py-8">
+                            <li
+                                class="py-1 before:mr-1 before:inline-block before:h-4 before:w-4 before:bg-[url('./icon_check.png')] before:bg-cover before:bg-no-repeat before:content-['']"
+                            >
+                                100GB storage
+                            </li>
+                            <li
+                                class="py-1 before:mr-1 before:inline-block before:h-4 before:w-4 before:bg-[url('./icon_check.png')] before:bg-cover before:bg-no-repeat before:content-['']"
+                            >
+                                Option to add members
+                            </li>
+                            <li
+                                class="py-1 before:mr-1 before:inline-block before:h-4 before:w-4 before:bg-[url('./icon_check.png')] before:bg-cover before:bg-no-repeat before:content-['']"
+                            >
+                                Extra member benefits
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div
+                    class="bg-secondary hover:bg-purple h-fit rounded-lg px-4 py-4 text-white transition-all"
+                >
+                    <div class="bg-primary rounded-lg">
+                        <div class="border-secondary border-b px-10 py-10">
+                            <h2 class="mb-10 uppercase">Stadared</h2>
+                            <p class="mb-3 text-4xl">
+                                200
+                                <span class="text-5xl">GB</span>
+                            </p>
+                            <p class="mb-4">$3.99/month</p>
+                            <button
+                                class="border-purple hover:bg-purple w-full rounded-lg border py-3"
+                            >
+                                Purchare
+                            </button>
+                        </div>
+                        <ul class="px-6 py-8">
+                            <li
+                                class="py-1 before:mr-1 before:inline-block before:h-4 before:w-4 before:bg-[url('./icon_check.png')] before:bg-cover before:bg-no-repeat before:content-['']"
+                            >
+                                100GB storage
+                            </li>
+                            <li
+                                class="py-1 before:mr-1 before:inline-block before:h-4 before:w-4 before:bg-[url('./icon_check.png')] before:bg-cover before:bg-no-repeat before:content-['']"
+                            >
+                                Option to add members
+                            </li>
+                            <li
+                                class="py-1 before:mr-1 before:inline-block before:h-4 before:w-4 before:bg-[url('./icon_check.png')] before:bg-cover before:bg-no-repeat before:content-['']"
+                            >
+                                Extra member benefits
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div
+                    class="bg-secondary hover:bg-purple h-fit rounded-lg px-4 py-4 text-white transition-all"
+                >
+                    <div class="bg-primary rounded-lg">
+                        <div class="border-secondary border-b px-10 py-10">
+                            <h2 class="mb-10 uppercase">Premium</h2>
+                            <p class="mb-3 text-4xl">
+                                2
+                                <span class="text-5xl">TB</span>
+                            </p>
+                            <p class="mb-4">$8.99/month</p>
+                            <button
+                                class="border-purple hover:bg-purple w-full rounded-lg border py-3"
+                            >
+                                Purchare
+                            </button>
+                        </div>
+                        <ul class="px-6 py-8">
+                            <li
+                                class="py-1 before:mr-1 before:inline-block before:h-4 before:w-4 before:bg-[url('./icon_check.png')] before:bg-cover before:bg-no-repeat before:content-['']"
+                            >
+                                100GB storage
+                            </li>
+                            <li
+                                class="py-1 before:mr-1 before:inline-block before:h-4 before:w-4 before:bg-[url('./icon_check.png')] before:bg-cover before:bg-no-repeat before:content-['']"
+                            >
+                                Option to add members
+                            </li>
+                            <li
+                                class="py-1 before:mr-1 before:inline-block before:h-4 before:w-4 before:bg-[url('./icon_check.png')] before:bg-cover before:bg-no-repeat before:content-['']"
+                            >
+                                Extra member benefits
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
