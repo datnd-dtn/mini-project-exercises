@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .btn-red {
+        @apply text-red-400 text-3xl;
+    }
+}
